@@ -76,3 +76,4 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
             rye run python examples/async_demo.py
+    if: github.repository == 'openai/openai-python-fix
