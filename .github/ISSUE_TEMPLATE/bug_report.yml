@@ -42,6 +42,7 @@ body:
     validations:
       required: false
   - type: input
+  - label: This is an issue with the Python library
     id: os
     attributes:
       label: OS
